@@ -23,12 +23,12 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className="mb-3 sm:mb-8 last:mb-0"
+      className="mb-3 sm:mb-8 last:mb-0 group"
     >
       <section
         className="relative bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden 
-    sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 group even:pl-8 hover:bg-gray-200 transition
-    hover:cursor-pointer"
+    sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 hover:bg-gray-200 transition
+    hover:cursor-pointer group-even:pl-8 rounded-lg"
       >
         <div
           className="py-4 px-5 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] 

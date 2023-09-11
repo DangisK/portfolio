@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1560787313-5dff3307e257?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+              src="/dangis_kažukauskas_photo.jpg"
               alt="Dangis portrait"
               width="192"
               height="192"
@@ -67,11 +67,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Dangis.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer.</span> I enjoy building websites &
+        creating APIs. My focus is <span className="underline">React with .NET</span>.
       </motion.h1>
 
       <motion.div
@@ -100,7 +98,7 @@ export default function Intro() {
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110 active:scale-105 transition
         cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Dangis_Kažukauskas_CV_en.pdf"
           download
         >
           Download CV <HiDownload className="opacity-60 group-hover:translate-y-0.5 transition" />

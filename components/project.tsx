@@ -5,7 +5,7 @@ import { useScroll, motion, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useRef } from "react";
 
-export default function Project({ title, description, tags, imageUrl }: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl, websiteUrl }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -30,6 +30,7 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
     sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 hover:bg-gray-200 transition
     hover:cursor-pointer sm:group-even:pl-8 rounded-lg 
     dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
+        onClick={() => window.open(websiteUrl, "_blank")}
       >
         <div
           className="py-4 px-5 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] 

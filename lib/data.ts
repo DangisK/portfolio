@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Workouts Progress Tracking",
     description:
-      "A fitness application, that can be used for creating workouts and tracking progress of their friends and their own.",
+      "A fitness application, that can be used for creating workouts and tracking progress of their friends and their own. \nSample username: Useris1, password: Useris1!",
     tags: ["React", ".NET", "MSSQL", "Material UI", "C#", "i18next"],
     imageUrl: workoutsprogress,
     websiteUrl: "https://dangis-workouts.vercel.app",
@@ -80,16 +80,15 @@ export const projectsData = [
   {
     title: "BlogIt",
     description:
-      "A vlog-style website resembling Facebook and other post-sharing platforms. Users can create, like, and comment on posts. Sample username: Useris1, password: Useris1!",
+      "A vlog-style website resembling Facebook and other post-sharing platforms. Users can create, like, and comment on posts. \nSample username: Useris1, password: Useris1!",
     tags: ["React", ".NET", "MSSQL", "Material UI", "C#"],
     imageUrl: blogsite,
     websiteUrl: "https://blogit-e6ho.onrender.com/",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Blank",
+    description: "The project will be added soon, now it redirects to the second project.",
+    tags: ["React", ".NET", "MSSQL", "Material UI", "C#"],
     imageUrl: wordanalyticsImg,
     websiteUrl: "https://blogit-e6ho.onrender.com/",
   },

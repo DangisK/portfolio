@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import workoutsprogress from "@/public/workoutsprogress.png";
 import blogsite from "@/public/blogsite.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -69,17 +70,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Workouts Progress Tracking",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    websiteUrl: "https://blogit-e6ho.onrender.com/",
+      "A fitness application, that can be used for creating workouts and tracking progress of their friends and their own.",
+    tags: ["React", ".NET", "MSSQL", "Material UI", "C#", "i18next"],
+    imageUrl: workoutsprogress,
+    websiteUrl: "https://dangis-workouts.vercel.app",
   },
   {
     title: "BlogIt",
     description:
-      "Vlog-type website, similar type to Facebook and other post-sharing websites. Users can create posts, like, comment them.",
+      "A vlog-style website resembling Facebook and other post-sharing platforms. Users can create, like, and comment on posts. Sample username: Useris1, password: Useris1!",
     tags: ["React", ".NET", "MSSQL", "Material UI", "C#"],
     imageUrl: blogsite,
     websiteUrl: "https://blogit-e6ho.onrender.com/",

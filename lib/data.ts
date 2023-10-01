@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import courses from "@/public/courses.png";
 import workoutsprogress from "@/public/workoutsprogress.png";
 import blogsite from "@/public/blogsite.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -86,11 +85,11 @@ export const projectsData = [
     websiteUrl: "https://blogit-e6ho.onrender.com/",
   },
   {
-    title: "Blank",
-    description: "The project will be added soon, now it redirects to the second project.",
-    tags: ["React", ".NET", "MSSQL", "Material UI", "C#"],
-    imageUrl: wordanalyticsImg,
-    websiteUrl: "https://blogit-e6ho.onrender.com/",
+    title: "Course platform",
+    description: "A course platform where people can enroll in courses and create them.",
+    tags: ["React", "TypeScript", "Prisma", "shadcn/ui", "TailwindCSS"],
+    imageUrl: courses,
+    websiteUrl: "https://dangis-courses.vercel.app/",
   },
 ] as const;
 

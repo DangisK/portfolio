@@ -77,19 +77,19 @@ export const projectsData = [
     websiteUrl: "https://dangis-workouts.vercel.app",
   },
   {
+    title: "Course platform",
+    description: "A course platform where people can enroll in courses and create them.",
+    tags: ["React", "TypeScript", "Prisma", "shadcn/ui", "TailwindCSS"],
+    imageUrl: courses,
+    websiteUrl: "https://dangis-courses.vercel.app/",
+  },
+  {
     title: "BlogIt",
     description:
       "A vlog-style website resembling Facebook and other post-sharing platforms. Users can create, like, and comment on posts. \nSample username: Useris1, password: Useris1!",
     tags: ["React", ".NET", "MSSQL", "Material UI", "C#"],
     imageUrl: blogsite,
     websiteUrl: "https://blogit-e6ho.onrender.com/",
-  },
-  {
-    title: "Course platform",
-    description: "A course platform where people can enroll in courses and create them.",
-    tags: ["React", "TypeScript", "Prisma", "shadcn/ui", "TailwindCSS"],
-    imageUrl: courses,
-    websiteUrl: "https://dangis-courses.vercel.app/",
   },
 ] as const;
 
